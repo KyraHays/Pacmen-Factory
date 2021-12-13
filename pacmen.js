@@ -1,7 +1,7 @@
 let pos = 0;
 const pacArray = [
-  ['./Pacmen-Factory/PacMan1.png', './Pacmen-Factory/PacMan2.png'],
-  ['./Pacmen-Factory/PacMan3.png', './Pacmen-Factory/PacMan4.png'],
+  ['/Users/kyrahays/Desktop/MyGitProject/Pacmen-Factory/PacMan1.png', '/Users/kyrahays/Desktop/MyGitProject/Pacmen-Factory/PacMan2.png'],
+  ['/Users/kyrahays/Desktop/MyGitProject/Pacmen-Factory/PacMan3.png', '/Users/kyrahays/Desktop/MyGitProject/Pacmen-Factory/PacMan4.png'],
 ];
 let direction = 0;
 const pacMen = []; // This array holds all the pacmen
@@ -24,13 +24,12 @@ function makePac() {
   let game = document.getElementById('game');
   let newimg = document.createElement('img');
   newimg.style.position = 'absolute';
-  newimg.src = '.Pacmen-Factory/PacMan1.png';
+  newimg.src = '/Users/kyrahays/Desktop/MyGitProject/Pacmen-Factory/PacMan1.png';
   newimg.width = 100;
   newimg.style.left = position.x;
   newimg.style.top = position.y;
-  // TODO: set position here
 
-  // TODO add new Child image to game
+
   game.appendChild(newimg);
 
   // return details in an object
@@ -73,7 +72,5 @@ function makeOne() {
 }
 
 //don't change this line
-if (typeof module !== 'undefined') {
-  module.exports = { checkCollisions, update, pacMen };
-}
+
 
