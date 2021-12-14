@@ -1,10 +1,10 @@
 # Pacmen-Factory
 
 ## Project Name:
-# PacMan Factory
+PacMan Factory
 
 ## Description:
-# This factory randomly places a pacman at the click of the button. The pacman will then start randomly moving across the screen once "Start Game" is pressed.
+This factory randomly places a pacman at the click of the button. The pacman will then start randomly moving across the screen once "Start Game" is pressed.
 
 ## Installation / How to run:
 Copy the .css, .js, and .html files in the same directory, load the index.html file into a web browser
